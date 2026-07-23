@@ -1,29 +1,25 @@
 import { motion } from "framer-motion";
 import {
   FaJava,
-  FaReact,
   FaGitAlt,
   FaHtml5,
   FaCss3Alt,
-  FaJs,
+  FaCode,
 } from "react-icons/fa";
-import {
-  SiSpringboot,
-  SiMysql,
-  SiTailwindcss,
-} from "react-icons/si";
+
+import { SiC } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 const skills = [
-  { name: "Java", level: 90, icon: <FaJava className="text-orange-500 text-4xl" /> },
-  { name: "Spring Boot", level: 85, icon: <SiSpringboot className="text-green-500 text-4xl" /> },
-  { name: "React", level: 88, icon: <FaReact className="text-cyan-400 text-4xl" /> },
-  { name: "JavaScript", level: 85, icon: <FaJs className="text-yellow-400 text-4xl" /> },
-  { name: "HTML", level: 95, icon: <FaHtml5 className="text-orange-600 text-4xl" /> },
-  { name: "CSS", level: 90, icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
-  { name: "Tailwind CSS", level: 88, icon: <SiTailwindcss className="text-cyan-500 text-4xl" /> },
-  { name: "MySQL", level: 82, icon: <SiMysql className="text-blue-400 text-4xl" /> },
-  { name: "Git", level: 80, icon: <FaGitAlt className="text-red-500 text-4xl" /> },
+  { name: "Java (Learning)", level: 30, icon: <FaJava className="text-orange-500 text-4xl" /> },
+  { name: "HTML", level: 45, icon: <FaHtml5 className="text-orange-600 text-4xl" /> },
+  { name: "CSS", level: 40, icon: <FaCss3Alt className="text-blue-500 text-4xl" /> },
+  { name: "Git & GitHub", level: 50, icon: <FaGitAlt className="text-red-500 text-4xl" /> },
+  { name: "VS Code", level: 80, icon: <VscVscode className="text-blue-500 text-4xl" /> },
+  { name: "Problem Solving", level: 40, icon: <FaCode className="text-green-500 text-4xl" /> },
+  { name: "C Programming", level: 45, icon: <SiC className="text-blue-600 text-4xl" /> },
 ];
+
 
 function Skills() {
   return (

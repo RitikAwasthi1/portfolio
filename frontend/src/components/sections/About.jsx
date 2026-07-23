@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
-import { FaJava, FaReact } from "react-icons/fa";
-import { SiSpringboot, SiMysql } from "react-icons/si";
+
+import {
+  FaJava,
+  FaHtml5,
+  FaGitAlt,
+} from "react-icons/fa";
+
+import { VscVscode } from "react-icons/vsc";
 
 function About() {
   return (
@@ -21,20 +27,18 @@ function About() {
             About Me
           </h2>
 
-          <p className="text-gray-300 leading-8 mb-6">
-            I'm a passionate B.Tech Artificial Intelligence & Data Science
-            student who enjoys building modern, scalable, and responsive
-            web applications using Java, Spring Boot, React, and MySQL.
-          </p>
+        <p className="text-gray-300 leading-8 mb-6">
+        I'm a B.Tech Artificial Intelligence & Data Science student with a strong
+        interest in software development and technology. I have started learning
+        Java and continuously improve my programming skills by building projects
+        and exploring modern development tools.
+        </p>
 
-          <p className="text-gray-400 leading-8">
-            My goal is to become a professional Java Full Stack Developer
-            and create impactful software solutions while continuously
-            learning new technologies.
-          </p>
+
         </motion.div>
 
         {/* Right Side */}
+        
         <motion.div
           className="grid grid-cols-2 gap-6"
           initial={{ opacity: 0, x: 80 }}
@@ -42,27 +46,25 @@ function About() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-
           <div className="bg-slate-800 p-6 rounded-xl text-center hover:scale-105 transition duration-300 shadow-lg">
             <FaJava className="text-5xl mx-auto text-orange-500 mb-4" />
-            <h3 className="font-semibold">Java</h3>
+            <h3 className="font-semibold">Java (Learning)</h3>
           </div>
 
           <div className="bg-slate-800 p-6 rounded-xl text-center hover:scale-105 transition duration-300 shadow-lg">
-            <FaReact className="text-5xl mx-auto text-cyan-400 mb-4" />
-            <h3 className="font-semibold">React</h3>
+            <FaHtml5 className="text-5xl mx-auto text-orange-600 mb-4" />
+            <h3 className="font-semibold">HTML</h3>
           </div>
 
           <div className="bg-slate-800 p-6 rounded-xl text-center hover:scale-105 transition duration-300 shadow-lg">
-            <SiSpringboot className="text-5xl mx-auto text-green-500 mb-4" />
-            <h3 className="font-semibold">Spring Boot</h3>
+            <FaGitAlt className="text-5xl mx-auto text-red-500 mb-4" />
+            <h3 className="font-semibold">Git & GitHub</h3>
           </div>
 
           <div className="bg-slate-800 p-6 rounded-xl text-center hover:scale-105 transition duration-300 shadow-lg">
-            <SiMysql className="text-5xl mx-auto text-blue-400 mb-4" />
-            <h3 className="font-semibold">MySQL</h3>
+            <VscVscode className="text-5xl mx-auto text-blue-500 mb-4" />
+            <h3 className="font-semibold">VS Code</h3>
           </div>
-
         </motion.div>
 
       </div>
