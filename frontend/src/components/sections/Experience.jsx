@@ -12,11 +12,11 @@ const timeline = [
   },
   {
     icon: <FaLaptopCode />,
-    title: "Java Full Stack Developer",
-    company: "Self Learning & Personal Projects",
+    title: "Programming & Web Development Learner",
+    company: "Self Learning",
     year: "2025 - Present",
     description:
-      "Building full-stack web applications using Java, Spring Boot, React, MySQL, Tailwind CSS, and REST APIs.",
+      "Currently learning Java and strengthening my programming fundamentals while building beginner-friendly web development projects and improving my problem-solving skills.",
   },
 ];
 
